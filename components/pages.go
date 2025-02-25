@@ -11,6 +11,7 @@ var mainPages *tview.Pages
 func MainPages() *tview.Pages {
 	mainPages = tview.NewPages()
 	mainPages.SetBackgroundColor(app.Styles.PrimitiveBackgroundColor)
-	mainPages.AddPage(pageNameConnections, NewConnectionPages().Flex, true, true)
+	// mainPages.AddPage(pageNameConnections, NewConnectionPages().Flex, true, true)
+	mainPages.AddPage(pageNameEnterPassword, NewEnterPasswordForm().Form, true, true)
 	return mainPages
 }

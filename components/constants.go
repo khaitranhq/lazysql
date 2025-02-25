@@ -28,6 +28,7 @@ const (
 
 	// Connections
 	pageNameConnectionSelection string = "ConnectionSelection"
+	pageNameEnterPassword       string = "EnterPassword"
 	pageNameConnectionForm      string = "ConnectionForm"
 
 	// SetValueList
